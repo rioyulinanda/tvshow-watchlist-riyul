@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/dist/output.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mulish&family=Ubuntu:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Login - TVShows Watchlist</title>
+  </head>
+  <body class="flex flex-col justify-center items-center h-screen bg-teal-800">
+    <div class="w-max-content">
+      <h1
+        class="text-5xl md:text-7xl font-bold leading-1.2 mb-6 font-[Ubuntu] gap-4 text-zinc-100"
+      >
+        TV <br />
+        Show <br />
+        Watchlist
+      </h1>
+      <form class="w-100 flex flex-col gap-5 font-[Mulish] font-normal">
+        <input
+          type="text"
+          class="h-14 w-100 p-4 bg-zinc-100 placeholder-gray-900 text-xl text-center lg:text-left rounded-3xl"
+          placeholder="username"
+          id="username-input"
+        />
+        <input
+          type="password"
+          class="h-14 p-4 bg-zinc-100 placeholder-gray-900 text-xl text-center lg:text-left rounded-3xl"
+          placeholder="password"
+          id="password-input"
+        />
+      </form>
+      <button
+        class="w-full h-14 text-2xl font-bold border-2 text-zinc-100 active:text-teal-800 bg-teal-800 active:bg-zinc-100 rounded-3xl mt-12 mb-3 font-[Mulish]"
+      >
+        login
+      </button>
+      <span class="text-zinc-100 font-medium ml-4 font-[Ubuntu]">
+        don't you have an account?
+        <a
+          href="./register.html"
+          class="font-bold text-teal-600 active:text-zinc-100"
+          >sign-up</a
+        >
+      </span>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>
