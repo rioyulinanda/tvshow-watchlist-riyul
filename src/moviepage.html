@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/dist/output.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mulish&family=Ubuntu:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Main - TV Show Watchlist</title>
+  </head>
+  <body class="m-4 p-1 bg-zinc-100">
+    <nav
+      class="top-0 flex justify-between items-center md:items-start h-[150px] bg-zinc-100 md:bg-zinc-100 gap-2 z-20"
+    >
+      <a href="homepage.html">
+        <h1 class="text-[25px] font-bold md:mt-5 text-teal-800 font-[Ubuntu]">
+          The <br />
+          Movie <br />
+          Watchlist
+        </h1></a
+      >
+      <form id="searchForm">
+        <input
+          id="searchInput"
+          type="text"
+          class="hidden md:flex justify-center items-end text-center text-xl font-[Mulish] text-zinc-100 placeholder:text-zinc-100 w-[464px] bg-teal-800 h-14 rounded-full md:mt-10"
+          placeholder="search tv shows"
+        />
+      </form>
+      <div class="flex gap-4">
+        <button
+          class="flex justify-center items-center text-[20px] bg-white w-10 h-10 rounded-full md:hidden"
+          id="searchBtn"
+        >
+          <img
+            class="h-5"
+            src="./assets/magnifying-glass.png"
+            alt="magnifying-glass"
+          />
+        </button>
+        <a href="./watchlist.html">
+          <button
+            class="flex justify-center items-center text-[20px] bg-white w-10 h-10 rounded-full md:hidden"
+            id="watchlistBtn"
+          >
+            <img
+              class="h-5"
+              src="./assets/bookmark.svg"
+              alt="magnifying-glass"
+            />
+          </button>
+        </a>
+        <a href="./watchlist.html">
+          <button
+            class="hidden md:text-[20px] md:mt-10 md:mr-4 justify-center items-center text-sm font-bold font-[Ubuntu] bg-teal-800 w-32 h-10 rounded-lg md:flex text-zinc-100"
+          >
+            <img
+              class="h-5"
+              src="./assets/icons8-bookmark.svg"
+              alt="bookmark"
+            />
+            Watchlist
+          </button>
+        </a>
+      </div>
+    </nav>
+    <!-- Title and Watchlist Button -->
+    <div class="px-5 md:px-20 md:mt-10 mb-6 flex items-center justify-between">
+      <h2
+        class="flex items-center font-bold text-3xl md:text-4xl text-left font-[Mulish] text-teal-800"
+        id="movieTitle"
+      ></h2>
+      <button
+        class="hidden justify-center items-center text-xl font-bold bg-teal-800 text-zinc-100 font-[Mulish] px-8 h-14 rounded-[20px] md:flex"
+        id="addToWatchlistBtn"
+      >
+        Add To Watchlist
+      </button>
+    </div>
+    <div
+      class="px-5 flex flex-col md:px-20 md:grid md:grid-cols-2 gap-y-8 gap-x-14 mb-10"
+    >
+      <div
+        class="flex flex-col items-start justify-start md:grid md:grid-cols-2 gap-8 w-full"
+      >
+        <div
+          class="bg-gray-400 h-full rounded-[20px] mb-14 hidden md:block overflow-hidden shadow-lg shadow-teal-500/100"
+          id="moviePoster"
+        ></div>
+        <div class="h-full flex flex-col justify-center">
+          <div
+            class="flex gap-4 mb-8 flex-wrap font-[Mulish] text-teal-800"
+            id="movieGenre"
+          ></div>
+          <p
+            class="text-lg leading-5 font-medium mb-8 font-[Mulish] text-teal-800"
+            id="movieSynopsis"
+          ></p>
+          <div>
+            <p class="text-lg font-[Mulish] text-teal-800">Rating</p>
+            <p
+              class="text-sm text font-[Mulish] text-teal-800"
+              id="movieRating"
+            ></p>
+          </div>
+        </div>
+      </div>
+      <div
+        class="mb-4 order-first md:order-last w-full min-h-fit font-[Mulish] shadow-lg shadow-teal-500/100"
+        id="movieTrailer"
+      >
+        Video
+      </div>
+    </div>
+    <script src="moviepage.js"></script>
+    <script src="navigation.js"></script>
+  </body>
+</html>

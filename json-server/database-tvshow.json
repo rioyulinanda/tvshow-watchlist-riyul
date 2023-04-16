@@ -1,0 +1,317 @@
+{
+  "users": [
+    {
+      "username": "John",
+      "email": "john@gmail.com",
+      "password": "John1234",
+      "id": 1
+    },
+    {
+      "username": "Jane",
+      "email": "jane@gmail.com",
+      "password": "Jane1234",
+      "id": 2
+    },
+    {
+      "username": "Tony",
+      "email": "stark@gmail.com",
+      "password": "Stark123",
+      "id": 3
+    },
+    {
+      "username": "Nick Bosa",
+      "email": "nick@gmail.com",
+      "password": "Bosa1234",
+      "id": 4
+    }
+  ],
+  "movies": [
+    {
+      "id": 1,
+      "title": "The Greys Anatomy",
+      "image": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F6%2F2020%2F09%2F17%2FGreys-Anatomy.jpg",
+      "year": 2005,
+      "synopsis": "Grey's Anatomy is an American medical drama television series that premiered on March 27, 2005, on ABC as a mid-season replacement. The series focuses on the lives of surgical interns, residents, and attendings as they develop into seasoned doctors while balancing personal and professional relationships.",
+      "genre": [
+        "Drama"
+      ],
+      "production": "ABC Studios",
+      "trailer": "https://www.youtube.com/embed/4FC8krII948",
+      "rating": 7.6,
+      "isWatched": false,
+      "isPrevious": false
+    },
+    {
+      "id": 2,
+      "title": "Prison Break",
+      "image": "https://flxt.tmsimg.com/assets/p12900907_b_v8_aa.jpg",
+      "year": 2005,
+      "synopsis": "Due to a political conspiracy, an innocent man is sent to death row and his only hope is his brother, who makes it his mission to deliberately get himself sent to the same prison in order to break the both of them out, from the inside.",
+      "genre": [
+        "Action",
+        "Crime",
+        "Drama"
+      ],
+      "production": "FOX Studios",
+      "trailer": "https://www.youtube.com/embed/der8A7Z9u7c",
+      "rating": 8.3,
+      "isWatch": false,
+      "isPrevious": false
+    },
+    {
+      "id": 3,
+      "title": "Breaking Bad",
+      "image": "https://qph.cf2.quoracdn.net/main-qimg-e83c61c4419b4461fe2caab14e8d2895-pjlq",
+      "year": 2008,
+      "synopsis": "A chemistry teacher diagnosed with inoperable lung cancer turns to manufacturing and selling methamphetamine with a former student in order to secure his family's future.",
+      "genre": [
+        "Crime",
+        "Drama",
+        "Thriller"
+      ],
+      "production": "Sony Pictures Television",
+      "trailer": "https://www.youtube.com/embed/HhesaQXLuRYU",
+      "rating": 9.5,
+      "isWatch": false,
+      "isPrevious": false
+    },
+    {
+      "id": 4,
+      "title": "The Office",
+      "image": "https://m.media-amazon.com/images/I/81R7QZV5P1L._AC_UF894,1000_QL80_.jpg",
+      "year": 2005,
+      "synopsis": "A mockumentary on a group of typical office workers, where the workday consists of ego clashes, inappropriate behavior, and tedium.",
+      "genre": [
+        "Comedy"
+      ],
+      "production": "NBC Universal Television",
+      "trailer": "https://www.youtube.com/embed/LHOtME2DL4g",
+      "rating": 9,
+      "isWatch": false
+    },
+    {
+      "id": 5,
+      "title": "Stranger Things",
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b1/Stranger_Things_season_1.jpg/220px-Stranger_Things_season_1.jpg",
+      "year": 2016,
+      "synopsis": "When a young boy disappears, his mother, a police chief and his friends must confront terrifying supernatural forces in order to get him back.",
+      "genre": [
+        "Drama",
+        "Fantasy",
+        "Horror"
+      ],
+      "production": "21 Laps Entertainment Monkey Massacre",
+      "trailer": "https://www.youtube.com/embed/b9EkMc79ZSU",
+      "rating": 8.7,
+      "isWatched": false
+    },
+    {
+      "id": 6,
+      "title": "Squid Game",
+      "image": "https://m.economictimes.com/thumb/msid-97982008,width-1440,height-1080,resizemode-4,imgsize-99866/squid-game-season-2-heres-everything-we-know-about-the-netflix-series.jpg",
+      "synopsis": "Hundreds of cash-strapped players accept a strange invitation to compete in children's games. Inside, a tempting prize awaits with deadly high stakes. A survival game that has a whopping 45.6 billion-won prize at stake.",
+      "year": 2021,
+      "genre": [
+        "Action",
+        "Drama",
+        "Mystery"
+      ],
+      "trailer": "https://www.youtube.com/embed/oqxAJKy0ii4",
+      "rating": 8,
+      "isWatched": false
+    },
+    {
+      "id": 1,
+      "title": "The Greys Anatomy",
+      "image": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F6%2F2020%2F09%2F17%2FGreys-Anatomy.jpg",
+      "year": 2005,
+      "synopsis": "Grey's Anatomy is an American medical drama television series that premiered on March 27, 2005, on ABC as a mid-season replacement. The series focuses on the lives of surgical interns, residents, and attendings as they develop into seasoned doctors while balancing personal and professional relationships.",
+      "genre": [
+        "Drama"
+      ],
+      "production": "ABC Studios",
+      "trailer": "https://www.youtube.com/embed/4FC8krII948",
+      "rating": 7.6,
+      "isWatched": false,
+      "isPrevious": false
+    },
+    {
+      "id": 2,
+      "title": "Prison Break",
+      "image": "https://flxt.tmsimg.com/assets/p12900907_b_v8_aa.jpg",
+      "year": 2005,
+      "synopsis": "Due to a political conspiracy, an innocent man is sent to death row and his only hope is his brother, who makes it his mission to deliberately get himself sent to the same prison in order to break the both of them out, from the inside.",
+      "genre": [
+        "Action",
+        "Crime",
+        "Drama"
+      ],
+      "production": "FOX Studios",
+      "trailer": "https://www.youtube.com/embed/der8A7Z9u7c",
+      "rating": 8.3,
+      "isWatch": false,
+      "isPrevious": false
+    },
+    {
+      "id": 3,
+      "title": "Breaking Bad",
+      "image": "https://qph.cf2.quoracdn.net/main-qimg-e83c61c4419b4461fe2caab14e8d2895-pjlq",
+      "year": 2008,
+      "synopsis": "A chemistry teacher diagnosed with inoperable lung cancer turns to manufacturing and selling methamphetamine with a former student in order to secure his family's future.",
+      "genre": [
+        "Crime",
+        "Drama",
+        "Thriller"
+      ],
+      "production": "Sony Pictures Television",
+      "trailer": "https://www.youtube.com/embed/HhesaQXLuRYU",
+      "rating": 9.5,
+      "isWatch": false,
+      "isPrevious": false
+    },
+    {
+      "id": 4,
+      "title": "The Office",
+      "image": "https://m.media-amazon.com/images/I/81R7QZV5P1L._AC_UF894,1000_QL80_.jpg",
+      "year": 2005,
+      "synopsis": "A mockumentary on a group of typical office workers, where the workday consists of ego clashes, inappropriate behavior, and tedium.",
+      "genre": [
+        "Comedy"
+      ],
+      "production": "NBC Universal Television",
+      "trailer": "https://www.youtube.com/embed/LHOtME2DL4g",
+      "rating": 9,
+      "isWatch": false
+    },
+    {
+      "id": 5,
+      "title": "Stranger Things",
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b1/Stranger_Things_season_1.jpg/220px-Stranger_Things_season_1.jpg",
+      "year": 2016,
+      "synopsis": "When a young boy disappears, his mother, a police chief and his friends must confront terrifying supernatural forces in order to get him back.",
+      "genre": [
+        "Drama",
+        "Fantasy",
+        "Horror"
+      ],
+      "production": "21 Laps Entertainment Monkey Massacre",
+      "trailer": "https://www.youtube.com/embed/b9EkMc79ZSU",
+      "rating": 8.7,
+      "isWatched": false
+    },
+    {
+      "id": 6,
+      "title": "Squid Game",
+      "image": "https://m.economictimes.com/thumb/msid-97982008,width-1440,height-1080,resizemode-4,imgsize-99866/squid-game-season-2-heres-everything-we-know-about-the-netflix-series.jpg",
+      "synopsis": "Hundreds of cash-strapped players accept a strange invitation to compete in children's games. Inside, a tempting prize awaits with deadly high stakes. A survival game that has a whopping 45.6 billion-won prize at stake.",
+      "year": 2021,
+      "genre": [
+        "Action",
+        "Drama",
+        "Mystery"
+      ],
+      "trailer": "https://www.youtube.com/embed/oqxAJKy0ii4",
+      "rating": 8,
+      "isWatched": false
+    }
+  ],
+  "currentWatch": [
+    {
+      "id": 3,
+      "title": "Breaking Bad",
+      "image": "https://qph.cf2.quoracdn.net/main-qimg-e83c61c4419b4461fe2caab14e8d2895-pjlq",
+      "year": 2008,
+      "synopsis": "A chemistry teacher diagnosed with inoperable lung cancer turns to manufacturing and selling methamphetamine with a former student in order to secure his family's future.",
+      "genre": [
+        "Crime",
+        "Drama",
+        "Thriller"
+      ],
+      "production": "Sony Pictures Television",
+      "trailer": "https://www.youtube.com/embed/HhesaQXLuRYU",
+      "rating": 9.5,
+      "isWatch": false,
+      "isPrevious": false
+    },
+    {
+      "id": 5,
+      "title": "Stranger Things",
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b1/Stranger_Things_season_1.jpg/220px-Stranger_Things_season_1.jpg",
+      "year": 2016,
+      "synopsis": "When a young boy disappears, his mother, a police chief and his friends must confront terrifying supernatural forces in order to get him back.",
+      "genre": [
+        "Drama",
+        "Fantasy",
+        "Horror"
+      ],
+      "production": "21 Laps Entertainment Monkey Massacre",
+      "trailer": "https://www.youtube.com/embed/b9EkMc79ZSU",
+      "rating": 8.7,
+      "isWatched": false
+    }
+  ],
+  "isSuggested": [
+    {
+      "id": 6,
+      "title": "Squid Game",
+      "image": "https://m.economictimes.com/thumb/msid-97982008,width-1440,height-1080,resizemode-4,imgsize-99866/squid-game-season-2-heres-everything-we-know-about-the-netflix-series.jpg",
+      "synopsis": "Hundreds of cash-strapped players accept a strange invitation to compete in children's games. Inside, a tempting prize awaits with deadly high stakes. A survival game that has a whopping 45.6 billion-won prize at stake.",
+      "year": 2021,
+      "genre": [
+        "Action",
+        "Drama",
+        "Mystery"
+      ],
+      "trailer": "https://www.youtube.com/embed/oqxAJKy0ii4",
+      "rating": 8,
+      "isWatched": false
+    },
+    {
+      "id": 4,
+      "title": "The Office",
+      "image": "https://m.media-amazon.com/images/I/81R7QZV5P1L._AC_UF894,1000_QL80_.jpg",
+      "year": 2005,
+      "synopsis": "A mockumentary on a group of typical office workers, where the workday consists of ego clashes, inappropriate behavior, and tedium.",
+      "genre": [
+        "Comedy"
+      ],
+      "production": "NBC Universal Television",
+      "trailer": "https://www.youtube.com/embed/LHOtME2DL4g",
+      "rating": 9,
+      "isWatch": false
+    }
+  ],
+  "isPrevious": [
+    {
+      "id": 1,
+      "title": "The Greys Anatomy",
+      "image": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F6%2F2020%2F09%2F17%2FGreys-Anatomy.jpg",
+      "year": 2005,
+      "synopsis": "Grey's Anatomy is an American medical drama television series that premiered on March 27, 2005, on ABC as a mid-season replacement. The series focuses on the lives of surgical interns, residents, and attendings as they develop into seasoned doctors while balancing personal and professional relationships.",
+      "genre": [
+        "Drama"
+      ],
+      "production": "ABC Studios",
+      "trailer": "https://www.youtube.com/embed/4FC8krII948",
+      "rating": 7.6,
+      "isWatched": false,
+      "isPrevious": false
+    }
+  ],
+  "watchlist": [
+    {
+      "title": "Breaking Bad",
+      "image": "https://qph.cf2.quoracdn.net/main-qimg-e83c61c4419b4461fe2caab14e8d2895-pjlq",
+      "synopsis": "A chemistry teacher diagnosed with inoperable lung cancer turns to manufacturing and selling methamphetamine with a former student in order to secure his family's future.",
+      "genre": [
+        "Crime",
+        "Drama",
+        "Thriller"
+      ],
+      "production": "Sony Pictures Television",
+      "trailer": "https://www.youtube.com/embed/HhesaQXLuRYU",
+      "rating": 9.5,
+      "id": 1
+    }
+  ]
+}
